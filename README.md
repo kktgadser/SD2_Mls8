@@ -30,7 +30,7 @@ For your Project, please load the folder tem_shop_template to your prefered code
 
 
 #### **Download the file here**
-https://tinyurl.com/newMilestoneSD2-6-1
+https://tinyurl.com/newMilestoneSD2-8-1
 
 ## Debug
 
