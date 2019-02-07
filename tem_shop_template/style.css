@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Undertale', Fallback, sans-serif;
+}
+.tem {
+    max-width: 800px;
+}
+
+.outer-box {
+    display: inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.control-section {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.image-box {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: black;
+    left: 480px;
+    top: 40px;
+}
+
+.image-item {
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+}
+
+.message-box {
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: black;
+    left: 300px;
+    top: 340px;
+}
+
+.pick-btn {
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: black;
+    top: 455px;
+    left: 445px;
+}
+
+.buy-btn {
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: black;
+    top: 455px;
+    left: 580px;
+}
+
+a {
+    color: white;
+}
+
+@font-face {
+    font-family: 'Undertale';
+    src: url('assets/myfont.woff') format('woff');
+}
